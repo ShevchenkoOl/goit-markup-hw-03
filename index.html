@@ -27,27 +27,31 @@
 
 <body>
     <!--Header-->
-    <header>
+    <header class="headr">
         <div class="container">
-            <nav> <a href="" class="logo-web link">Web<span class="logo-studio link">Studio</span></a>
-                <ul>
+            <nav class="headr-nav"> <a href="./index.html" class="logo-web link">Web<span
+                        class="logo-studio link">Studio</span></a>
+                <ul class="headr-list">
                     <li><a href="./index.html" class="headr-link link">Студия</a></li>
                     <li><a href="./portfolio.html" class="headr-link link">Портфолио</a></li>
                     <li><a href="" class="headr-link link">Контакты</a></li>
+                    <li><a href="mailto:info@devstudio.com" class="headr-contact link">info@devstudio.com</a></li>
+                    <li><a href="tel:+380961111111" class="headr-contact link">+380961111111</a></li>
                 </ul>
             </nav>
-            <a href="mailto:info@devstudio.com" class="headr-contact link">info@devstudio.com</a>
-            <a href="tel:+380961111111" class="headr-contact link">+380961111111</a>
         </div>
     </header>
+
     <!--Main-->
     <main>
-        
-            <section class="main">
+        <section class="section">
+            <div class="container main-section">
                 <h1 class="main-h1">Эффективное решение для вашего бизнеса</h1>
                 <button type="button" class="main-button">Заказать услугу</button>
-            </section>
-            <section>
+            </div>
+        </section>
+        <section class="section">
+            <div class="container">
                 <ul>
                     <li>
                         <h3 class="main-h3">Внимание к деталям</h3>
@@ -76,40 +80,49 @@
                             заданий.</p>
                     </li>
                 </ul>
-            </section>
-            <section>
+            </div>
+        </section>
+        <section class="section">
+            <div class="container">
                 <h2 class="main-h2">Чем мы занимаемся</h2>
-                <ul>
+                <ul class="pictures-about">
                     <li><img src="images/img_pc.jpg" width="370" height="294" alt="картинка ПК" /></li>
                     <li><img src="images/img_lap.jpg" width="370" height="294" alt="картинка ноутбука" /></li>
                     <li><img src="images/img_tablet.jpg" width="370" height="294" alt="картинка планшета" /></li>
                 </ul>
-            </section>
-            <section>
+            </div>
+        </section>
+        <section class="section">
+            <div class="container">
                 <h2 class="main-h2">Наша команда </h2>
-                <ul>
-                    <li><img src="images/foto_dem.jpg" width="270" height="260" alt="Фото Игоря Демьяненко" />
+                <ul class="team-list">
+                    <li class="team-item"><img src="images/foto_dem.jpg" width="270" height="260"
+                            alt="Фото Игоря Демьяненко" />
                         <p class="team-name">Игорь Демьяненко</p>
                         <p class="position">Product Designer</p>
                     </li>
-                    <li><img src="images/foto_rep.jpg" width="270" height="260" alt="Фото Ольги Репиной" />
+                    <li class="team-item"><img src="images/foto_rep.jpg" width="270" height="260"
+                            alt="Фото Ольги Репиной" />
                         <p class="team-name">Ольга Репина </p>
                         <p class="position">Fronted Developer</p>
-                    </li>
-                    <li><img src="images/forto_tarasov.jpg" width="270" height="260" alt="Фото Николая Тарасова" />
+                    </li class="team-item">
+                    <li class="team-item"><img src="images/forto_tarasov.jpg" width="270" height="260"
+                            alt="Фото Николая Тарасова" />
                         <p class="team-name">Николай Тарасов </p>
                         <p class="position">Marketing</p>
                     </li>
-                    <li><img src="images/foto_ermak.jpg" width="270" height="260" alt="Фото Михаила Ермакова" />
+                    <li class="team-item"><img src="images/foto_ermak.jpg" width="270" height="260"
+                            alt="Фото Михаила Ермакова" />
                         <p class="team-name">Михаил Ермаков </p>
                         <p class="position">Designer</p>
                     </li>
                 </ul>
-            </section>
-       
+            </div>
+        </section>
+
     </main>
     <!--Footer-->
-    <footer>
+    <footer class="container footer">
         <a href="" class="logo-web link">Web<span class="logo-studio-footer link">Studio</span></a>
         <address class="address">г. Киев, пр-т Леси Украинки, 26</address>
         <a href="mailto:info@devstudio.com" class="footer-contact link">info@devstudio.com</a>
