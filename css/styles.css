@@ -1,5 +1,7 @@
 html {
     box-sizing: border-box;
+
+
 }
 
 *,
@@ -48,7 +50,7 @@ address {
     margin-right: auto;
     width: 1200px;
     outline: 2px solid tomato;
-    }
+}
 
 .section {
     padding: 94px, 0;
@@ -56,10 +58,12 @@ address {
 
 
 /*----------------------headr------------------------*/
-.header {height: 80px;   
-    outline: 2px solid tomato;
-    display:inline-flex;
-    
+.header {
+    height: 80px;
+    display: inline-flex;
+    padding-top: 32px;
+    background: #FFFFFF;
+
 }
 
 .logo-web {
@@ -94,10 +98,18 @@ address {
     letter-spacing: 0.02em;
 
     color: #212121;
+    width: 16px;
     margin-top: 32px;
-    margin-bottom: 32px;
-    margin-left: 93px;
-    outline: 2px solid tomato;
+
+}
+
+.portfolio {
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+.contact {
+    margin-right: 150px;
 }
 
 .headr-link:hover,
@@ -111,7 +123,12 @@ address {
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: #757575;
-    outline: 2px solid tomato;
+    width: 16px;
+
+}
+
+.email {
+    margin-right: 30px;
 }
 
 .headr-contact:hover,
@@ -121,17 +138,19 @@ address {
 
 .headr-nav {
     margin-left: 215px;
-    margin-top: 25px;
+    margin-top: -8px;
     margin-bottom: 24px;
+    margin-right: 70px;
     width: 145px;
     height: 31px;
-    outline: 2px solid tomato;
+
 }
 
 .headr-list {
     display: inline-flex;
 
 }
+
 /*----------------------main------------------------*/
 
 .main-button {
@@ -142,7 +161,6 @@ address {
     letter-spacing: 0.06em;
     color: #FFFFFF;
     background-color: #2196F3;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     padding: 10px 32px;
     min-width: 200px;
@@ -150,9 +168,8 @@ address {
     text-decoration: none;
     align-items: center;
     text-align: center;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     margin-top: 30px;
-    outline: 2px solid tomato;
+    border-color: #2196F3;
 }
 
 .main-h1 {
@@ -165,25 +182,44 @@ address {
     text-transform: uppercase;
     color: #FFFFFF;
     max-width: 800px;
-    outline: 2px solid tomato;
+
 
 }
 
 .main-section {
+
     text-align: center;
     background: #2F303A;
     padding-top: 200px;
     padding-bottom: 200px;
     height: 600px;
+    width: 1600px;
 
 
 }
 
+.about {
+    width: 1600px;
+    background: #E5E5E5;
+    height: 289px;
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.main-about {
+    display: flex;
+    padding-left: 200px;
+    max-width: 1200px;
+
+}
+
+.point1 {
+    margin-right: 30px;
+}
+
 .pictures-about {
     display: flex;
-    justify-content: center;
-    padding-left: 215px;
-    padding-right: 215px;
+
 }
 
 .main-h3 {
@@ -254,6 +290,9 @@ address {
 /*----------------------footer------------------------*/
 .footer {
     background: #2F303A;
+    width: 1600px;
+    height: 252px;
+    padding:60px 1154px 60px 215px;
 }
 
 .address {
@@ -285,6 +324,12 @@ address {
     letter-spacing: 0.03em;
 
     color: white;
+}
+
+.footer-logo {
+    width: 231px;
+    height: 100px;
+    outline: 2px solid tomato;
 }
 
 /*----------------------portfolio------------------------*/
