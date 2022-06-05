@@ -1,5 +1,11 @@
-* {
+html {
     box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
 }
 
 :root {
@@ -25,6 +31,10 @@ ul {
     padding-left: 0;
 }
 
+li {
+    display: list-item;
+}
+
 button {
     cursor: pointer;
 }
@@ -38,9 +48,7 @@ address {
     margin-right: auto;
     width: 1200px;
     outline: 2px solid tomato;
-    padding: 32px 15px;
-    justify-content: center;
-}
+    }
 
 .section {
     padding: 94px, 0;
@@ -48,6 +56,12 @@ address {
 
 
 /*----------------------headr------------------------*/
+.header {height: 80px;   
+    outline: 2px solid tomato;
+    display:inline-flex;
+    
+}
+
 .logo-web {
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
@@ -80,6 +94,10 @@ address {
     letter-spacing: 0.02em;
 
     color: #212121;
+    margin-top: 32px;
+    margin-bottom: 32px;
+    margin-left: 93px;
+    outline: 2px solid tomato;
 }
 
 .headr-link:hover,
@@ -93,7 +111,7 @@ address {
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: #757575;
-
+    outline: 2px solid tomato;
 }
 
 .headr-contact:hover,
@@ -101,28 +119,19 @@ address {
     color: var(--link-color);
 }
 
-.header {
-    margin-bottom: 0px;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.02em;
-    border-bottom: #FFFFFF;
-    background: #FFFFFF;
-
-
-}
-
 .headr-nav {
-    display: flex;
-    align-items: center;
+    margin-left: 215px;
+    margin-top: 25px;
+    margin-bottom: 24px;
+    width: 145px;
+    height: 31px;
+    outline: 2px solid tomato;
 }
 
 .headr-list {
     display: inline-flex;
 
 }
-
 /*----------------------main------------------------*/
 
 .main-button {
@@ -142,7 +151,8 @@ address {
     align-items: center;
     text-align: center;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    margin-bottom: 200px;
+    margin-top: 30px;
+    outline: 2px solid tomato;
 }
 
 .main-h1 {
@@ -153,15 +163,19 @@ address {
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
-    margin-bottom: 30px;
     color: #FFFFFF;
     max-width: 800px;
+    outline: 2px solid tomato;
 
 }
 
 .main-section {
     text-align: center;
     background: #2F303A;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    height: 600px;
+
 
 }
 
@@ -281,7 +295,7 @@ address {
 .pictures-portfolio {
     display: block;
     max-width: 100%; height: auto;}*/
-    
+
 .main-portfolio-btn {
     font-family: 'Roboto';
     font-weight: 500;
