@@ -49,6 +49,8 @@ address {
     margin-left: auto;
     margin-right: auto;
     width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
     /*outline: 2px solid tomato;*/
 }
 
@@ -81,7 +83,7 @@ address {
     display: block;
     height: 31px;
     width: 145px;
-    margin-left: 215px;
+    padding-left: 215px;
 
 }
 
@@ -153,7 +155,6 @@ address {
 
 /*----------------------main------------------------*/
 .main {
-    width: 1600px;
     height: 600px;
     background: #2F303A;
     padding-top: 200px;
@@ -179,6 +180,8 @@ address {
     margin-left: 700px;
 
     border: transparent;
+    margin: 0 auto;
+    display: block;
 }
 
 .main-button:hover,
@@ -204,7 +207,6 @@ address {
 
 .about {
     background: #E5E5E5;
-    width: 1600px;
     padding-top: 94px;
 
 
@@ -212,7 +214,7 @@ address {
 
 .about-list {
     display: flex;
-    margin-left: 215px;
+    padding: left auto 0;
 }
 
 .about-list .about-items+.about-items {
@@ -318,7 +320,6 @@ address {
 
 /*----------------------footer------------------------*/
 .footer {
-    width: 1600px;
     height: 252px;
     padding-left: 215px;
 
@@ -428,6 +429,7 @@ address {
 .portfolio-items {
     background: #FFFFFF;
     border: 1px solid #EEEEEE;
+    padding-bottom: 30px;
 
 }
 
