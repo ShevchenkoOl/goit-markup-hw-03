@@ -49,13 +49,13 @@ address {
     margin-left: auto;
     margin-right: auto;
     width: 1200px;
-    padding-left: 15px;
-    padding-right: 15px;
+
     /*outline: 2px solid tomato;*/
 }
 
 .section {
-    padding: 94px, 0;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .logo-web {
@@ -76,14 +76,6 @@ address {
     letter-spacing: 0.03em;
 
     color: #000000;
-
-}
-
-.headr-logo {
-    display: block;
-    height: 31px;
-    width: 145px;
-    padding-left: 215px;
 
 }
 
@@ -109,22 +101,18 @@ address {
 .headr {
     display: flex;
     height: 80px;
-    width: 1600px;
     align-items: center;
-    justify-content: space-around;
+    padding-left: 27px;
+
 }
 
 .headr-list {
     display: flex;
+    margin-left: 93px;
 }
 
 .headr-list .headr-items+.headr-items {
     margin-left: 50px;
-}
-
-.headr-items {
-    width: 77px;
-
 }
 
 .headr-contact {
@@ -139,8 +127,6 @@ address {
 .contact-tel {
     width: 122px;
     margin-left: 50px;
-    margin-right: 215px;
-
 }
 
 .contact-mail {
@@ -176,7 +162,7 @@ address {
 
     height: 50px;
     text-decoration: none;
-    margin-top: 40px;
+    margin-top: 30px;
     margin-left: 700px;
 
     border: transparent;
@@ -192,7 +178,8 @@ address {
 
 .main-h1 {
     margin: auto;
-    max-width: 800px;
+    padding-bottom: 30px;
+    max-width: 600px;
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
@@ -206,7 +193,6 @@ address {
 }
 
 .about {
-    background: #E5E5E5;
     padding-top: 94px;
 
 
@@ -234,6 +220,8 @@ address {
 }
 
 .main-h2 {
+    padding-top: 94px;
+    padding-bottom: 54px;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
@@ -267,15 +255,7 @@ address {
     margin-left: 30px
 }
 
-.pictures-items {
-    margin-top: 50px;
-    width: 370px;
-    height: 294px;
-
-}
-
 .team {
-    width: 1600px;
     background: #F5F4FA;
 }
 
@@ -285,12 +265,15 @@ address {
 
 .team-list {
     display: flex;
-    padding-left: 215px;
+}
+
+.team-position {
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 .team-items {
     width: 270px;
-    height: 368px;
     background: #FFFFFF;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
@@ -402,8 +385,7 @@ address {
     background: #F5F4FA;
     border-radius: 4px;
     border: transparent;
-    width: 128px;
-    height: 38px;
+    
 }
 
 .main-portfolio-btn:hover,
