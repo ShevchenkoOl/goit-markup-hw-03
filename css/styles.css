@@ -102,7 +102,6 @@ address {
     display: flex;
     height: 80px;
     align-items: center;
-    padding-left: 27px;
 
 }
 
@@ -122,13 +121,14 @@ address {
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: #757575;
+    padding-left: 50px;
 
 }
 
-.contact-tel {
-    width: 122px;
-    margin-left: 50px;
+.contact {
+    margin-left: auto;
 }
+
 
 .headr-contact:hover,
 :focus {
@@ -190,13 +190,10 @@ address {
 
 .about {
     padding-top: 94px;
-
-
 }
 
 .about-list {
     display: flex;
-    padding: left auto 0;
 }
 
 .about-list .about-items+.about-items {
@@ -216,18 +213,18 @@ address {
 }
 
 .main-h2 {
-    padding-top: 94px;
-    padding-bottom: 54px;
+    margin-bottom: 50px;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
     text-align: center;
     letter-spacing: 0.03em;
-    padding-top: 94px;
     color: #212121;
+}
 
-
-
+.img {
+    padding-top: 94px;
+    padding-bottom: 54px;
 }
 
 .main-paragraph {
@@ -275,6 +272,7 @@ address {
 }
 
 .team-name {
+    margin-bottom: 10px;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.19;
@@ -295,42 +293,27 @@ address {
 
 /*----------------------footer------------------------*/
 .footer {
+    padding-top: 60px;
+    padding-bottom: 60px;
     height: 252px;
-    padding-left: 215px;
-
     background: #2F303A;
 }
 
-.footer-logo {
-    padding-top: 60px;
-
-}
-
-.footer-address {
-    padding-top: 20px;
-
-}
-
-.footer-mail {
-    padding-top: 9px;
-
-}
-
-.footer-tel {
-    padding-top: 9px;
-}
 
 .address {
-    padding-top: 9px;
     font-style: normal;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
 
     color: #FFFFFF;
+    margin-top: 20px;
+    margin-bottom: 9px;
+
 }
 
 .footer-contact {
+    display: block;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
@@ -351,19 +334,29 @@ address {
     letter-spacing: 0.03em;
 
     color: white;
+
+}
+
+.tel {
+    margin-top: 9px;
 }
 
 /*----------------------portfolio------------------------*/
+.line {
+
+    border-bottom: 1px solid #ECECEC;
+}
+
 .portfolio-btn-list {
     display: flex;
-    padding-top: 94px;
+    padding: 106px 22px;
     justify-content: center;
 }
 
 
 
 .portfolio-btn-list .portfolio-btn-items+.portfolio-btn-items {
-    margin-left: 30px;
+    margin-left: 8px;
 }
 
 .main-portfolio-btn {
@@ -388,6 +381,7 @@ address {
 
 .pictures {
     padding-bottom: 94px;
+    
 }
 
 .portfolio-list {
@@ -395,21 +389,19 @@ address {
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
-    padding-top: 56px;
-    padding-left: 15px;
 
 }
 
 .portfolio-items {
     background: #FFFFFF;
     border: 1px solid #EEEEEE;
-    padding-bottom: 30px;
 
 }
 
 .pictures-text {
-
     padding-left: 24px;
+    padding-top: 30px;
+
 }
 
 .main-portfolio-h3 {
