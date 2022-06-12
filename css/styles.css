@@ -94,11 +94,14 @@ address {
     letter-spacing: 0.02em;
 
     color: #212121;
+
 }
 
+
 .headr-link:hover,
-:focus {
+.headr-link:focus {
     color: var(--link-color);
+
 }
 
 .headr {
@@ -134,7 +137,7 @@ address {
 
 
 .headr-contact:hover,
-:focus {
+.headr-contact:focus {
     color: var(--link-color);
 }
 
@@ -170,9 +173,9 @@ address {
 }
 
 .main-button:hover,
-:focus {
+.main-button:focus {
     color: #FFFFFF;
-    background-color: var(--link-color)
+    background-color: var(--link-color);
 }
 
 .main-h1 {
@@ -219,8 +222,8 @@ address {
     text-align: center;
     letter-spacing: 0.03em;
     color: #212121;
-}
-
+    }
+.main-h2-none{padding-top:0;}
 .main-paragraph {
     font-size: 14px;
     line-height: 1.71;
@@ -293,7 +296,8 @@ address {
 /*----------------------footer------------------------*/
 .footer {
     padding-bottom: 60px;
-    height: 252px;
+    padding-top: 60px;
+    
     background: #2F303A;
 }
 
@@ -320,7 +324,7 @@ address {
 }
 
 .footer-contact:hover,
-:focus {
+.footer-contact:focus {
     color: var(--link-color);
 }
 
@@ -375,7 +379,7 @@ address {
 }
 
 .main-portfolio-btn:hover,
-:focus {
+.main-portfolio-btn:focus {
     background-color: var(--link-color);
     color: white;
 }
@@ -394,9 +398,12 @@ address {
 
 }
 
+.nomargin-portfolio {
+    margin-bottom: -30px;
+}
+
 .pictures-text {
-    padding-left: 24px;
-    padding-top: 30px;
+    padding: 20px 24px;
 
 }
 
